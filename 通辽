@@ -1,0 +1,41 @@
+import java.net.*;
+import java.io.*;
+import java.util.*;
+public class 通辽 {
+private HashMap<String,ArrayList<String>>disallowListCache =new HashMap<String,ArrayList<String>>();
+ArrayList<String> errorList =new ArrayList<String>();
+ArrayList<String> result =new ArrayList<String>();
+String string;
+int maxUrl;
+String searchString;
+boolean caseSensitive=false;
+boolean limitHost=false;
+//public Se
+    public static void main(String[] args) {
+        float 人口=66000000;//数据爬虫生成，可修改
+        float 面积=67081000;//数据爬虫生成，可修改
+        String a="英国";//地区名，输入自动补全
+/*
+              通辽单位转换器V1.0
+              郑斯元制作
+              输入地区名自动查询，如果报错，可以自己改参数
+              爬虫信息：java编写，制作郑斯元，目标网站：wiki百科（百度反爬虫）
+ */
+
+        float 通辽面积=59535;//可修改
+        float 通辽人口=2873168;//（第七次人口普查数据）
+
+        //以下内容请勿修改
+        float 大小=面积/通辽面积;
+        float 比值=人口/通辽人口;
+        System.out.println("当前查询    "+a);
+        System.out.println("面积相当于："+大小+"个通辽");
+        System.out.println("人口相当于："+比值+"个通辽");
+        System.out.println("                        信息自wiki百科");
+        System.out.println("                           制作：郑斯元");
+        System.out.println("访问我的B站账号"+"  "+"https://space.bilibili.com/535845107"+" "+"@蔡徐坤奥利给蔡徐坤");
+        System.out.println("已在我的GitHub账号开源");
+
+    }
+
+}
